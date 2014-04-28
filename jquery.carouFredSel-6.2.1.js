@@ -4236,7 +4236,8 @@
 				}
 				else
 				{
-					m = ['carouFredSel'+s+':', m];
+					var n = 'carouFredSel' + s + ':'; 
+					m = [n, m];
 				}
 				window.console.log(m);
 			}
